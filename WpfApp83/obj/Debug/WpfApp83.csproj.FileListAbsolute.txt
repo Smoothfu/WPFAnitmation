@@ -1,0 +1,15 @@
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.csprojResolveAssemblyReference.cache
+D:\D\WpfApp83\WpfApp83\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp83\WpfApp83\obj\Debug\App.g.cs
+D:\D\WpfApp83\WpfApp83\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83_MarkupCompile.cache
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83_MarkupCompile.lref
+D:\D\WpfApp83\WpfApp83\bin\Debug\WpfApp83.exe.config
+D:\D\WpfApp83\WpfApp83\bin\Debug\WpfApp83.exe
+D:\D\WpfApp83\WpfApp83\bin\Debug\WpfApp83.pdb
+D:\D\WpfApp83\WpfApp83\obj\Debug\MainWindow.baml
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.g.resources
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.Properties.Resources.resources
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.csproj.GenerateResource.Cache
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.exe
+D:\D\WpfApp83\WpfApp83\obj\Debug\WpfApp83.pdb
