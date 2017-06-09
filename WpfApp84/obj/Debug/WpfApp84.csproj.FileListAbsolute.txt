@@ -1,0 +1,14 @@
+D:\D\WpfApp84\WpfApp84\obj\Debug\App.g.cs
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84_MarkupCompile.cache
+D:\D\WpfApp84\WpfApp84\bin\Debug\WpfApp84.exe.config
+D:\D\WpfApp84\WpfApp84\bin\Debug\WpfApp84.exe
+D:\D\WpfApp84\WpfApp84\bin\Debug\WpfApp84.pdb
+D:\D\WpfApp84\WpfApp84\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp84\WpfApp84\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84_MarkupCompile.lref
+D:\D\WpfApp84\WpfApp84\obj\Debug\MainWindow.baml
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84.g.resources
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84.Properties.Resources.resources
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84.csproj.GenerateResource.Cache
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84.exe
+D:\D\WpfApp84\WpfApp84\obj\Debug\WpfApp84.pdb
