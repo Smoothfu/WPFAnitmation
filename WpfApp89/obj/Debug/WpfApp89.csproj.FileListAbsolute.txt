@@ -1,0 +1,14 @@
+D:\D\WpfApp89\WpfApp89\bin\Debug\WpfApp89.exe.config
+D:\D\WpfApp89\WpfApp89\bin\Debug\WpfApp89.exe
+D:\D\WpfApp89\WpfApp89\bin\Debug\WpfApp89.pdb
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.csprojResolveAssemblyReference.cache
+D:\D\WpfApp89\WpfApp89\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp89\WpfApp89\obj\Debug\App.g.cs
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89_MarkupCompile.cache
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89_MarkupCompile.lref
+D:\D\WpfApp89\WpfApp89\obj\Debug\MainWindow.baml
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.g.resources
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.Properties.Resources.resources
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.csproj.GenerateResource.Cache
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.exe
+D:\D\WpfApp89\WpfApp89\obj\Debug\WpfApp89.pdb
