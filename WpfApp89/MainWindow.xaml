@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WpfApp89"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Canvas x:Name="_canvas" Background="White">
+    <Canvas x:Name="_canvas" Background="White" MouseLeftButtonDown="_canvas_MouseLeftButtonDown" MouseLeftButtonUp="_canvas_MouseLeftButtonUp" MouseMove="_canvas_MouseMove">
         
     </Canvas>
 </Window>

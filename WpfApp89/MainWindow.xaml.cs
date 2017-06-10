@@ -20,6 +20,11 @@ namespace WpfApp89
     /// </summary>
     public partial class MainWindow : Window
     {
+        Point _current;
+        FrameworkElement _currentShape;
+        bool _moving;
+        Adorner _adorner;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -51,6 +56,47 @@ namespace WpfApp89
                 _canvas.Children.Add(circle);
                 start += 2;
 
+            }
+        }
+
+        private void _canvas_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            var layer = AdornerLayer.GetAdornerLayer(_canvas);
+            if(_adorner!=null)
+            {
+                layer.Remove(_adorner);
+                _adorner = null;
+            }
+
+            var shape = e.Source as Shape;
+            if(shape!=null)
+            {
+                _moving = true;
+                _current = e.GetPosition(_canvas);
+                _currentShape = shape;
+                _adorner = new SelectionAdorner(shape);
+                layer.Add(_adorner);
+                _canvas.CaptureMouse();
+            }
+        }
+
+        private void _canvas_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            if(_moving)
+            {
+                _moving = false;
+                _canvas.ReleaseMouseCapture();
+            }
+        }
+
+        private void _canvas_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(_moving)
+            {
+                var pt = e.GetPosition(_canvas);
+                Canvas.SetLeft(_currentShape, Canvas.GetLeft(_currentShape) + pt.X - _current.X);
+                Canvas.SetTop(_currentShape, Canvas.GetTop(_currentShape) + pt.Y - _current.Y);
+                _current = pt;
             }
         }
     }
