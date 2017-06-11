@@ -1,0 +1,13 @@
+D:\D\WpfApp92\WpfApp92\obj\Debug\App.g.cs
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92_MarkupCompile.cache
+D:\D\WpfApp92\WpfApp92\bin\Debug\WpfApp92.exe.config
+D:\D\WpfApp92\WpfApp92\bin\Debug\WpfApp92.exe
+D:\D\WpfApp92\WpfApp92\bin\Debug\WpfApp92.pdb
+D:\D\WpfApp92\WpfApp92\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92_MarkupCompile.lref
+D:\D\WpfApp92\WpfApp92\obj\Debug\MainWindow.baml
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92.g.resources
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92.Properties.Resources.resources
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92.csproj.GenerateResource.Cache
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92.exe
+D:\D\WpfApp92\WpfApp92\obj\Debug\WpfApp92.pdb
