@@ -1,0 +1,51 @@
+﻿<Window x:Class="WpfApp95.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp95"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Linear Animation" Margin="8" FontSize="16">
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click">
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation To="1400" From="20" Storyboard.TargetName="e1"
+                                                 Storyboard.TargetProperty="(Canvas.Left)"
+                                                 Duration="0:0:3"/>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+            <Button Content="Animation With Easing" Margin="8" FontSize="16">
+                <Button.Triggers>
+                    <EventTrigger RoutedEvent="Button.Click" >
+                        <BeginStoryboard>
+                            <Storyboard>
+                                <DoubleAnimation To="1400" From="20"
+                                                 Storyboard.TargetName="e1"
+                                                 Storyboard.TargetProperty="(Canvas.Left)"
+                                                 Duration="0:0:3" RepeatBehavior="Forever" >
+                                    <DoubleAnimation.EasingFunction>
+                                        <CircleEase/>
+                                    </DoubleAnimation.EasingFunction>
+                                </DoubleAnimation>
+                            </Storyboard>
+                        </BeginStoryboard>
+                    </EventTrigger>
+                </Button.Triggers>
+            </Button>
+        </StackPanel>
+        <Canvas Grid.Row="1">
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40" Canvas.Left="20" Canvas.Top="30" x:Name="e1"/>
+        </Canvas>
+    </Grid>
+</Window>

@@ -1,0 +1,14 @@
+D:\D\WpfApp95\WpfApp95\bin\Debug\WpfApp95.exe.config
+D:\D\WpfApp95\WpfApp95\bin\Debug\WpfApp95.exe
+D:\D\WpfApp95\WpfApp95\bin\Debug\WpfApp95.pdb
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.csprojResolveAssemblyReference.cache
+D:\D\WpfApp95\WpfApp95\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp95\WpfApp95\obj\Debug\App.g.cs
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95_MarkupCompile.cache
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95_MarkupCompile.lref
+D:\D\WpfApp95\WpfApp95\obj\Debug\MainWindow.baml
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.g.resources
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.Properties.Resources.resources
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.csproj.GenerateResource.Cache
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.exe
+D:\D\WpfApp95\WpfApp95\obj\Debug\WpfApp95.pdb
