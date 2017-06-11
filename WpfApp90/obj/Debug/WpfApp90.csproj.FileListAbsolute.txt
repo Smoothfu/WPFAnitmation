@@ -1,0 +1,14 @@
+D:\D\WpfApp90\WpfApp90\bin\Debug\WpfApp90.exe.config
+D:\D\WpfApp90\WpfApp90\bin\Debug\WpfApp90.exe
+D:\D\WpfApp90\WpfApp90\bin\Debug\WpfApp90.pdb
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.csprojResolveAssemblyReference.cache
+D:\D\WpfApp90\WpfApp90\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp90\WpfApp90\obj\Debug\App.g.cs
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90_MarkupCompile.cache
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90_MarkupCompile.lref
+D:\D\WpfApp90\WpfApp90\obj\Debug\MainWindow.baml
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.g.resources
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.Properties.Resources.resources
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.csproj.GenerateResource.Cache
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.exe
+D:\D\WpfApp90\WpfApp90\obj\Debug\WpfApp90.pdb
