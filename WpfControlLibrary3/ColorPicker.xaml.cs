@@ -26,6 +26,45 @@ namespace WpfControlLibrary3
             InitializeComponent();
         }
 
+        static ColorPicker()
+        {
+            CommandManager.RegisterClassCommandBinding(typeof(ColorPicker), new CommandBinding(
+                MediaCommands.ChannelUp, ChannelUpExecute, ChannelUpCanExecute));
+            CommandManager.RegisterClassCommandBinding(typeof(ColorPicker), new CommandBinding(MediaCommands.ChannelDown,
+                ChannelDownExecute, ChannelDownCanExecute));
+        }
+
+        static void ChannelUpExecute(object sender,ExecutedRoutedEventArgs e)
+        {
+            var cp = (ColorPicker)sender;
+            var color = cp.SelectedColor;
+            if (color.R < 255) color.R++;
+            if (color.G < 255) color.G++;
+            if (color.B < 255) color.B++;
+            cp.SelectedColor = color;
+        }
+
+        static void ChannelUpCanExecute(object sender,CanExecuteRoutedEventArgs e)
+        {
+            var color = ((ColorPicker)sender).SelectedColor;
+            e.CanExecute = color.R < 255 || color.G < 255 || color.B < 255;
+        }
+
+        static void ChannelDownExecute(object sender,ExecutedRoutedEventArgs e)
+        {
+            var cp = (ColorPicker)sender;
+            var color = cp.SelectedColor;
+            if (color.R > 0) color.R--;
+            if (color.G > 0) color.G--;
+            if (color.B > 0) color.B--;
+            cp.SelectedColor = color;
+        }
+
+        static void ChannelDownCanExecute(object sender,CanExecuteRoutedEventArgs e)
+        {
+            var color = ((ColorPicker)sender).SelectedColor;
+            e.CanExecute = color.R > 0 || color.G > 0 || color.B > 0;
+        }
         public static readonly DependencyProperty SelectedColorProperty = DependencyProperty.Register(
             "SelectedColor", typeof(Color), typeof(ColorPicker),
             new UIPropertyMetadata(Colors.Black, OnSelectedColorChanged));

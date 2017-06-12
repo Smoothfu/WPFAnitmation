@@ -1,4 +1,3 @@
-D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.csprojResolveAssemblyReference.cache
 D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\ColorPicker.g.cs
 D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\GeneratedInternalTypeHelper.g.cs
 D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3_MarkupCompile.cache

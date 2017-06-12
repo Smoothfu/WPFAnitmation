@@ -11,8 +11,15 @@
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <ctls:ColorPicker SelectedColorChanged="OnColorChanged"/>
         <TextBlock x:Name="_tbColor" FontSize="20" Grid.Row="1" Margin="8"/>
+        <UniformGrid Grid.Row="2" Columns="2">
+            <RepeatButton Content="&lt;&lt;" FontSize="30" Command="ChannelDown" Margin="4"
+                          CommandTarget="{Binding ElementName=picker}"/>
+            <RepeatButton Content="&gt;&gt;" FontSize="30" Command="ChannelUp" Margin="4"
+                          CommandTarget="{Binding ElementName=picker}"/>
+        </UniformGrid>
     </Grid>
 </Window>

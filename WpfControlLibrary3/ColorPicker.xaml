@@ -59,27 +59,27 @@
                 Converter={StaticResource ResourceKey=color2double},
                 ConverterParameter=r,StringFormat=R:{0}}"/>
         </Grid>
-
+        
         <Grid Margin="4" Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Rectangle Fill="{Binding SelectedColor,ElementName=uc,Converter={StaticResource color2brush},
-                ConverterParameter=g}"/>
-            <Slider Grid.Column="1" Value="{Binding SelectedColor,ElementName=uc,Converter={StaticResource color2brush},
-                ConverterParameter=g}"/>
+            <Rectangle Fill="{Binding SelectedColor,ElementName=uc,Converter={StaticResource ResourceKey=color2brush},
+                ConverterParameter=b}"/>
+            <Slider Grid.Column="1" Value="{Binding SelectedColor,ElementName=uc,Converter={StaticResource ResourceKey=color2double},
+                ConverterParameter=b}"/>
             <TextBlock Text="{Binding SelectedColor,ElementName=uc,
                 Converter={StaticResource color2double},
-                ConverterParameter=g,StringFormat=G:{0}}"/>
+                ConverterParameter=b,StringFormat=B:{0}}"/>
         </Grid>
+        
         <Grid Margin="4" Grid.Row="2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Rectangle Fill="{Binding SelectedColor,ElementName=uc,
-                Converter={StaticResource color2brush},
+            <Rectangle Fill="{Binding SelectedColor,ElementName=uc,Converter={StaticResource color2brush},
                 ConverterParameter=b}"/>
             <Slider Grid.Column="1" Value="{Binding SelectedColor,ElementName=uc,Converter={StaticResource ResourceKey=color2double},
                 ConverterParameter=b}"/>
