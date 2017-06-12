@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp99.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp99"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Slider Margin="4" Maximum="360" x:Name="_startAngle" Grid.Row="1"/>
+        <local:RadialPanel StartAngle="{Binding Value,ElementName=_startAngle}">
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Green" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Blue" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Yellow" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Brown" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Orange" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="LightBlue" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Cyan" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+            <Ellipse Fill="Red" Stroke="Black" StrokeThickness="2" Width="40" Height="40"/>
+        </local:RadialPanel>
+    </Grid>
+</Window>
