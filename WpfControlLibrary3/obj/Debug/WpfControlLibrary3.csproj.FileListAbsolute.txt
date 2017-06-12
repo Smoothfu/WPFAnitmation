@@ -1,0 +1,13 @@
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.csprojResolveAssemblyReference.cache
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\ColorPicker.g.cs
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3_MarkupCompile.cache
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3_MarkupCompile.lref
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.dll
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.pdb
+D:\D\WpfControlLibrary3\WpfControlLibrary3\bin\Debug\WpfControlLibrary3.dll
+D:\D\WpfControlLibrary3\WpfControlLibrary3\bin\Debug\WpfControlLibrary3.pdb
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\ColorPicker.baml
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.g.resources
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.Properties.Resources.resources
+D:\D\WpfControlLibrary3\WpfControlLibrary3\obj\Debug\WpfControlLibrary3.csproj.GenerateResource.Cache
