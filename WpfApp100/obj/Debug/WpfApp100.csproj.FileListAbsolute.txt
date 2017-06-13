@@ -1,0 +1,15 @@
+D:\D\WpfApp100\WpfApp100\bin\Debug\WpfApp100.exe.config
+D:\D\WpfApp100\WpfApp100\bin\Debug\WpfApp100.exe
+D:\D\WpfApp100\WpfApp100\bin\Debug\WpfApp100.pdb
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.csprojResolveAssemblyReference.cache
+D:\D\WpfApp100\WpfApp100\obj\Debug\MainWindow.g.cs
+D:\D\WpfApp100\WpfApp100\obj\Debug\App.g.cs
+D:\D\WpfApp100\WpfApp100\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100_MarkupCompile.cache
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100_MarkupCompile.lref
+D:\D\WpfApp100\WpfApp100\obj\Debug\MainWindow.baml
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.g.resources
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.Properties.Resources.resources
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.csproj.GenerateResource.Cache
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.exe
+D:\D\WpfApp100\WpfApp100\obj\Debug\WpfApp100.pdb
